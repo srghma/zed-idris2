@@ -1,0 +1,51 @@
+/.direnv
+.idea
+**/target
+**/cargo-target
+/zed.xcworkspace
+.DS_Store
+/plugins/bin
+/script/node_modules
+/crates/theme/schemas/theme.json
+/crates/collab/seed.json
+/crates/zed/resources/flatpak/flatpak-cargo-sources.json
+/dev.zed.Zed*.json
+/assets/*licenses.*
+**/venv
+.build
+*.wasm
+Packages
+*.xcodeproj
+xcuserdata/
+DerivedData/
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+.swiftpm
+**/*.db
+.pytest_cache
+.venv
+.blob_store
+.vscode
+.wrangler
+.flatpak-builder
+
+# Don't commit any secrets to the repo.
+.env.secret.toml
+.DS_Store
+.env
+build
+node_modules
+
+# We only use pnpm.
+bun.lockb
+package-lock.json
+yarn.lock
+
+# Zed extension CLI.
+zed-extension
+
+# Directories used by the Zed Extension CLI.
+/scratch
+/output
+grammars
